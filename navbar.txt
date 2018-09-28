@@ -1,0 +1,87 @@
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="styl1.css">
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top" id="mainNav">
+        <div class="container">
+          <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">FoodChef</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <h1><a class="navbar-brand" href="index.html">Cafe</a></h1>
+          </div> 
+          <div class="collapse navbar-collapse navbar-ex1-collapse" id="mainNav">
+            <ul class="nav navbar-nav navbar-right">
+               <li class="hidden"><a class="page-scroll scroll" href="#page-top"></a>  </li>
+              <li><a class="page-scroll scroll" href="#home">Home</a></li>
+              <li><a class="page-scroll scroll" href="#about">About</a></li>
+              <li><a class="page-scroll scroll" href="#coffee">Coffee</a></li>
+              <li><a class="page-scroll scroll" href="#review">Review</a></li>
+              <li><a class="page-scroll scroll" href="#blog">Blog</a></li>
+              
+            </ul>
+          </div>
+         
+        </div>
+       
+      </nav>  
+
+
+h1 a.navbar-brand {
+    font-size: 1em;
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 13px 10px 17px 0;
+    margin-top: -6px;
+    
+}
+h1 a.navbar-brand span {
+    background: red;
+    padding: 1px 18px;
+  font-weight: bold;
+    font-size: 1em;
+    margin-right: 0.1em;
+    border-right: 2px solid #fff;
+}
+nav.navbar.navbar-default.navbar-fixed-top {
+    background:rgba(0, 0, 0, 0.65);
+    border: none;
+    padding: .6em;
+  -webkit-transition:.5s all;
+  -moz-transition:.5s all; 
+  transition:.5s all;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: .9em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color:#fff;
+    background-color:#de0f17;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #8B4513;
+    background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
+    padding: 0;
+    background: rgba(0, 0, 0, 0.75);
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px!important;
+    
+}
